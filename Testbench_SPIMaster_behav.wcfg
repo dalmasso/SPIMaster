@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Testbench_SPIMaster_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Testbench_SPIMaster" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,001.000001 us"></ZoomEndTime>
+      <Cursor1Time time="175.126401 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="177"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/clock_12M">
+      <obj_property name="ElementShortName">clock_12M</obj_property>
+      <obj_property name="ObjectShortName">clock_12M</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/uut/cpol">
+      <obj_property name="ElementShortName">cpol</obj_property>
+      <obj_property name="ObjectShortName">cpol</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/uut/cpha">
+      <obj_property name="ElementShortName">cpha</obj_property>
+      <obj_property name="ObjectShortName">cpha</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SPIMaster/uut/i_write_value">
+      <obj_property name="ElementShortName">i_write_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_write_value[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Testbench_SPIMaster/uut/state">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Testbench_SPIMaster/uut/clock_divider">
+      <obj_property name="ElementShortName">clock_divider</obj_property>
+      <obj_property name="ObjectShortName">clock_divider</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/uut/clock_enable">
+      <obj_property name="ElementShortName">clock_enable</obj_property>
+      <obj_property name="ObjectShortName">clock_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/uut/clock_enable_x2">
+      <obj_property name="ElementShortName">clock_enable_x2</obj_property>
+      <obj_property name="ObjectShortName">clock_enable_x2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SPIMaster/uut/bit_counter">
+      <obj_property name="ElementShortName">bit_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_counter[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/uut/bit_counter_end">
+      <obj_property name="ElementShortName">bit_counter_end</obj_property>
+      <obj_property name="ObjectShortName">bit_counter_end</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/uut/delay_counter_end">
+      <obj_property name="ElementShortName">delay_counter_end</obj_property>
+      <obj_property name="ObjectShortName">delay_counter_end</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/uut/byte_counter_end">
+      <obj_property name="ElementShortName">byte_counter_end</obj_property>
+      <obj_property name="ObjectShortName">byte_counter_end</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/sclk">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SPIMaster/uut/write_value_reg">
+      <obj_property name="ElementShortName">write_value_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">write_value_reg[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/mosi">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/miso">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SPIMaster/read_value">
+      <obj_property name="ElementShortName">read_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_value[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/read_value_valid">
+      <obj_property name="ElementShortName">read_value_valid</obj_property>
+      <obj_property name="ObjectShortName">read_value_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_SPIMaster/busy">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_SPIMaster/ss">
+      <obj_property name="ElementShortName">ss[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ss[0:0]</obj_property>
+   </wvobject>
+</wave_config>
